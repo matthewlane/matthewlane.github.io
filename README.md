@@ -1,4 +1,3 @@
-matthewlane.github.io
-=====================
+# matthewlane.github.io
 
-My Github page
+My GitHub page.
