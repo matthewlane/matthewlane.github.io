@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <meta name="Description" content="This is the website of Matt Lane">
-    <title>Matt Lane | Software Developer</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300,400">
+    <title>Matt Lane</title>
+    <link rel="stylesheet" href="http://d2v52k3cl9vedd.cloudfront.net/basscss/7.0.4/basscss.min.css">
     <style>
-        h1, h2 {color: #444; font-family: 'Oswald', sans-serif; font-weight: 300;}
-        h1 {font-size: 70px;}
-        h2 {font-size: 40px;}
-        a {transition: .5s;}
-        i {padding-right: 15px;}
+        body {background-color: #fcfcfc;}
+        body, h1, h2 {font-family: monospace;}
+        main {font-size: 125%;}
+        a {transition: .5s; text-decoration: underline;}
+        a:hover {color: #004b8c;}
+        .off {background-color: #f3f3f3;}
     </style>
 </head>
 
-<body>
-    <div class="container">
-    <div class="row">
-    <div class="col-lg-12">
-        <h1>Matt Lane</h1>
-        <h2>Software Developer</h2>
-    </div>
-    </div>
-    <br>
+<body class="flex flex-column" style="min-height: 100vh">
+    <header class="center">
+        <h2 class="muted mb0">hi, my name is</h2>
+        <h1 class="orange mt0">Matt</h1>
+    </header>
 
-    <div class="row">
-    <div class="col-lg-12">
-        <a href="https://github.com/matthewlane" title="GitHub"><i class="fa fa-github-square fa-3x"></i></a>
-        <a href="https://www.linkedin.com/pub/matt-lane/50/b27/553" title="LinkedIn"><i class="fa fa-linkedin-square fa-3x"></i></a>
-    </div>
-    </div>
-    </div>
+    <main class="flex-auto p2">
+        <section class="container px3 py3">
+            <div class="clearfix mxn2">
+                <div class="sm-col sm-col-6 px2">
+                    <h2 class="h1 center mb0"><a href="">Dev</a></h2>
+                    <p class="justify">I've been developing web applications and other software professionally since 2008, and in general for much longer. This is about what I've done.</p>
+                </div>
+                <div class="sm-col sm-col-6 px2">
+                    <h2 class="h1 center mb0"><a href="">Travel</a></h2>
+                    <p class="justify">At the beginning of 2015 I left normal life to travel solo on the other side of the world for 10 weeks. This is where I went and what I learned.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script>
-    $(document).ready(function() {
-        $.backstretch("img/bike_ride.jpg");
-    });
-    </script>
+    <footer class="center p2 off">
+        <p class="mb0">
+            <a href="https://github.com/matthewlane">GitHub</a>
+            |
+            <a href="https://www.linkedin.com/pub/matt-lane/50/b27/553">LinkedIn</a>
+            |
+            2015
+        </p>
+    </footer>
 </body>
+
 </html>
