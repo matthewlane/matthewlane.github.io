@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+body {
+    background-color: #fcfcfc;
+}
+
+body, h1, h2 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+footer {
+    font-size: 85%;
+}
+
+a {
+    transition: .5s; text-decoration: underline;
+}
+
+a:hover {
+    color: #004b8c;
+}
+
+.off {
+    background-color: #f3f3f3;
+}
