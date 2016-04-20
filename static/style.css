@@ -1,3 +1,5 @@
+@import url('normalize.css');
+
 body {
   color: #333;
   letter-spacing: 1pt;
